@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a6d5103b-75d8-4e70-bd0f-4f6aec324b07" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/work/autonomous-driving.html" beforeDir="false" afterPath="$PROJECT_DIR$/work/autonomous-driving.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/work/connecting-airport.html" beforeDir="false" afterPath="$PROJECT_DIR$/work/connecting-airport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/work/fraud-detection.html" beforeDir="false" afterPath="$PROJECT_DIR$/work/fraud-detection.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/work/project-2-copy.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/work/project-2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/work/subtle-gesture-ar.html" beforeDir="false" afterPath="$PROJECT_DIR$/work/subtle-gesture-ar.html" afterDir="false" />
-    </list>
+    <list default="true" id="a6d5103b-75d8-4e70-bd0f-4f6aec324b07" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -76,20 +67,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/work/georgia-aquarium.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
               <caret line="7" column="10" lean-forward="true" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="59" column="49" lean-forward="true" selection-start-line="59" selection-start-column="49" selection-end-line="59" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -101,6 +83,7 @@
       <find>project-2</find>
       <find>project-2-cop</find>
       <find>project</find>
+      <find>georgia-aquarium</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -197,18 +180,18 @@
       <updated>1572398950981</updated>
       <workItem from="1572398955285" duration="128000" />
       <workItem from="1572449611425" duration="1348000" />
-      <workItem from="1572560582935" duration="627000" />
+      <workItem from="1572560582935" duration="668000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2103000" />
+    <option name="totallyTimeSpent" value="2144000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="87" y="68" width="1118" height="709" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2497721" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.2497721" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -273,13 +256,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/work/georgia-aquarium.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="10" lean-forward="true" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/work/project-2-copy.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
@@ -297,7 +273,14 @@
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="311">
-          <caret line="59" column="49" lean-forward="true" selection-start-line="59" selection-start-column="49" selection-end-line="59" selection-end-column="49" />
+          <caret line="59" column="36" selection-start-line="59" selection-start-column="36" selection-end-line="59" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/georgia-aquarium.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="10" lean-forward="true" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
         </state>
       </provider>
     </entry>

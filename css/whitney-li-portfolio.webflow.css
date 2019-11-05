@@ -583,8 +583,8 @@ figcaption {
 .work-image.cc-work-4 {
   height: 400px;
   background-image: url('../images/Glass-Activation.png');
-  background-position: 50% -90%;
-  background-size: auto;
+  background-position: 50% 50%;
+  background-size: cover;
 }
 
 .work-image.cc-work-3 {

@@ -47,19 +47,25 @@
         </div>
         <div id="w-node-58f9a32087d9-f3eb4ea3">
           <div class="position-name-text">Project Overview</div>
-          <div class="paragraph-light cc-position-name">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. </div>
+          <div class="paragraph-light cc-position-name">This is the senior capstone project for my statistics major. A five-student team worked with our client Bill.com, a company processing 120,000+ payment requests daily.<br />
+          <br />The goal of our project is to use over 250,000 transactions provided by Bill.com to find key features and patterns indicative of fraudulent transactions to build an effective model predicting fraudulent activities.
+         </div>
         </div>
         <div id="w-node-58f9a32087de-f3eb4ea3">
-          <div class="position-name-text">My Contributions</div>
-          <div class="paragraph-light cc-position-name">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</div>
+          <div class="position-name-text">Project Impact</div>
+          <div class="paragraph-light cc-position-name">After cleaning, EDA, feature engineering and modeling, we found that XG boost with SMOTE oversampled data is the best model, reaching 95%  success rate while being able to flag a minimal number of legitimate transactions as fraud.
+            <br /><br />As a result, the model saves 73.5 hours of manual checking daily and will be put into practice 2019 summer.</div>
         </div>
       </div>
-      <h4 class="position-name-text">First Iteration</h4>
-      <p class="paragraph-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
-      <h4 class="position-name-text">First Iteration</h4>
-      <p class="paragraph-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
-    </div>
+
+      <div class="image-block"><img src="../images/data-fraud.jpg" width="800" alt="">
+                    <div class="text-under-image">
+                      Final Poster for Fraud Detection
+                    </div>
+      </div>
   </div>
+  </div>
+
   <div id="audi-news" class="section">
     <div class="container">
       <div class="w-layout-grid project-overview-grid">
@@ -69,19 +75,43 @@
         </div>
         <div id="w-node-d5e55ed5b2c8-f3eb4ea3">
           <div class="position-name-text">Project Overview</div>
-          <div class="paragraph-light cc-position-name">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. </div>
+          <div class="paragraph-light cc-position-name">This is an independent project for my time series analysis class, completed in my junior year.<br /><br />
+            <b>Background</b><br />
+            Shanghai uses an auction system to sell a limited number of license plates to fossil-fuel car buyers every month. The average price of this license plate is about $13,000 (the unit in original data is CNY) and it is often referred to as “the most expensive piece of metal in the world.” Getting plates outside Shanghai is a less appealing option, because the city doesn’t allow vehicles registered elsewhere on its elevated highways
+during rush hours.
+           </div>
+
         </div>
         <div id="w-node-d5e55ed5b2cd-f3eb4ea3">
-          <div class="position-name-text">My Contributions</div>
-          <div class="paragraph-light cc-position-name">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</div>
+          <div class="position-name-text">My Approach</div>
+          <div class="paragraph-light cc-position-name">I first plotted the original time series of license average price and success rate. Because both ACF and PACF of average price show exponential decay and are not significant after 1, I first tried ARMA (1,1), and forecasted for the next 10 months.<br /><br />
+          For success rate, I conducted periodgram analysis and found the predominant cycle of 12. Based on ACF and PACF plots, I tried several SARIMA and garch models, and found SARIMA(1,0,0)(1,0,0)[12] the best fit.
+         </div>
         </div>
       </div>
-      <h4 class="position-name-text">First Iteration</h4>
-      <p class="paragraph-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
-      <h4 class="position-name-text">First Iteration</h4>
-      <p class="paragraph-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
+
+      <h4 class="position-name-text">Problem Statement</h4>
+      <p class="paragraph-light">
+        Giving the increasing average price for license plates and decreasing success rate, I want to build a relatively accurate forecast model for average plate price.
+The key questions for this work include:
+        <li>
+          What are the forecast, and forecast error bounds, for Shanghai average license plate price?
+        </li>
+        <li>
+          Based only on 2002-2013 data, how does our prediction for successful application rate diﬀer from the reality?
+        </li>
+      </p><br />
+      <h4 class="position-name-text">Conclusion</h4>
+      <p class="paragraph-light">
+        The average price of Shanghai license plate is well captured by a low order ARIMA model, namely a ARIMA(1,1,1). Comparing the forecast with the actual average price for March and April 2018, the model did a good job.<br /><br />
+        The successful application rate of Shanghai license plate is well captured by a low order seasonal ARMA model, namely a SARIMA(1,0,0)x(1,0,0)[12]. <br /><br />
+        Forecasts predict the near term behavior of the series. The longterm forecasts converge to the estimated mean of the process, as expected. However, the seasonal model for successful application rate failed to see a sharp drop in 2014, which is caused by a sudden increase in the total number of applicants (the denominator for the success rate).<br /><br />
+        The reason for the increasing applicants is unclear, but we need to be mindful about the impact of future events (or people’s expectations) instead of just focusing on the past data when we build model.<br />
+        You can read the full report (with my code and graphs) <a href="https://docs.google.com/document/d/1OgRFmVdZdmMZ8VT26EgzHb8chbX2uAqFCjuFl_p1b70/edit?usp=sharing">here</a>
+      </p>
     </div>
   </div>
+
   <div id="heart-heard" class="section">
     <div class="container">
       <div class="w-layout-grid project-overview-grid">
@@ -91,19 +121,28 @@
         </div>
         <div id="w-node-f900b1553f29-f3eb4ea3">
           <div class="position-name-text">Project Overview</div>
-          <div class="paragraph-light cc-position-name">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. </div>
+          <div class="paragraph-light cc-position-name">
+          The music industry has a well-developed market with a global annual revenue around $15 billion. The recording industry is highly competitive and is dominated by three big production companies which make up nearly 82% of the total annual album sales. Unfortunately, the success of an artist’s release is highly uncertain: a single may be extremely popular, resulting in widespread radio play and digital downloads, while another single may turn out quite unpopular, and therefore unprofitable.<br /><br />
+          Knowing the competitive nature of the recording industry, record labels face the fundamental decision problem of which musical releases to support to maximize their financial success.
+          How can we use analytics to predict the popularity of a song? In this project, I will predict whether a song will reach a spot in the Top 10 of the Billboard Hot 100 Chart.
+          </div>
         </div>
         <div id="w-node-f900b1553f2e-f3eb4ea3">
-          <div class="position-name-text">My Contributions</div>
-          <div class="paragraph-light cc-position-name">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</div>
+          <div class="position-name-text">Dataset Info</div>
+          <div class="paragraph-light cc-position-name">
+            This is an independent, two-week project for data science tools and algorithms class in my senior year of college. <br /><br />
+            Taking an analytics approach, I aim to use information about a song’s properties to predict its popularity. The dataset songs.csv consists of all songs which made it to the Top 10 of the Billboard Hot 100 Chart from 1990-2010 plus a sample of additional songs that didn’t make the
+            Top 10. This data comes from three sources: Wikipedia, Billboard.com, and EchoNest.<br /><br />
+            The variables included in the dataset either describe the artist or the song, or they are associ-
+            ated with the following song attributes: time signature, loudness, key, pitch, tempo, and timbre.
+          </div>
         </div>
       </div>
-      <h4 class="position-name-text">First Iteration</h4>
-      <p class="paragraph-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
-      <h4 class="position-name-text">First Iteration</h4>
-      <p class="paragraph-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
+      <h4 class="position-name-text">Analysis</h4>
+      <p class="paragraph-light">Need to be updated</p>
     </div>
   </div>
+
   <div class="footer-wrap">
     <div class="div-block-5"><img src="../images/up.png" width="31" alt="" class="image-5"><a href="../index.html" class="logo-link w-nav-brand"><img src="../images/whitney-logo.png" width="58" alt="" class="logo-image image-4"></a></div>
     <div class="footer-links"><a href="https://www.linkedin.com/in/yuntongli/" target="_blank" class="footer-item">Linkedin</a><a href="https://www.instagram.com/whitneyli1218/" target="_blank" class="footer-item">Instagram</a><a href="https://medium.com/@whitneyli" target="_blank" class="footer-item">Medium</a></div>

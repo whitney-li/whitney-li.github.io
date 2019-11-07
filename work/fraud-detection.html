@@ -138,8 +138,27 @@ The key questions for this work include:
           </div>
         </div>
       </div>
-      <h4 class="position-name-text">Analysis</h4>
-      <p class="paragraph-light">Need to be updated</p>
+      <h4 class="position-name-text">Conclusion</h4>
+      <p class="paragraph-light">I built three models. The first models is a logistic regression model with all variables. After checking the multi-collinearity, I built the second model using all the variables except loudness, and the third model using all the variables except energy.<br /><br />
+        Model 3 had the best performance by predicting 287 Not Top10 songs and 29 Top10 songs correctly using a threshold of 0.45. Furthermore, by plotting the coefficient significance, we found the top 2 predictors for record success are timbre_0_max and timbre_11_min, while coefficients of variables such as loudness and energy are close to 0, meaning that heavy instrumentation is not a significant factor in the mainstream taste.
+      </p>
+      <div class="w-row">
+        <div class="w-col w-col-6">
+          <div class="image-block"><img src="../images/data-best-alpha.png"  alt="">
+            <div class="text-under-image">Find the best alpha to use in the model</div>
+          </div>
+        </div>
+
+        <div class="w-col w-col-6">
+          <div class="image-block"><img src="../images/data-coef.png" alt="">
+            <div class="text-under-image">Analyze the importance of variables by visualizing the coefficients</div>
+          </div>
+        </div>
+      </div><br />
+
+      <div class="image-block"><img src="../images/data-result.png" width="650" alt="">
+        <div class="text-under-image">Model Result Comparison</div>
+      </div>
     </div>
   </div>
 

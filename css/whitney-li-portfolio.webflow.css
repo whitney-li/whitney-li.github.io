@@ -2006,6 +2006,9 @@ figcaption {
     margin-right: 15px;
     margin-left: 15px;
   }
+  .section.p{
+    text-align: left;
+  }
   .section.cc-contact {
     padding: 15px;
   }

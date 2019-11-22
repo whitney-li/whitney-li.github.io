@@ -100,13 +100,26 @@ The key questions for this work include:
           Based only on 2002-2013 data, how does our prediction for successful application rate diﬀer from the reality?
         </li>
       </p><br />
-      <h4 class="position-name-text">Conclusion</h4>
+      <div class="w-row">
+        <div class="w-col w-col-6">
+          <div class="image-block"><img src="../images/time1.png" alt="">
+            <div class="text-under-image">forecast for the next 10 months with ARMA(1,1)</div>
+          </div>
+        </div>
+        <div class="w-col w-col-6">
+          <div class="image-block"><img src="../images/time2.png" alt="">
+            <div class="text-under-image">periodogram analysis on past success rate</div>
+          </div>
+        </div>
+      </div>
+      
+      <h4 class="position-name-text">Analysis</h4>
       <p class="paragraph-light">
         The average price of Shanghai license plate is well captured by a low order ARIMA model, namely a ARIMA(1,1,1). Comparing the forecast with the actual average price for March and April 2018, the model did a good job.<br /><br />
         The successful application rate of Shanghai license plate is well captured by a low order seasonal ARMA model, namely a SARIMA(1,0,0)x(1,0,0)[12]. <br /><br />
         Forecasts predict the near term behavior of the series. The longterm forecasts converge to the estimated mean of the process, as expected. However, the seasonal model for successful application rate failed to see a sharp drop in 2014, which is caused by a sudden increase in the total number of applicants (the denominator for the success rate).<br /><br />
         The reason for the increasing applicants is unclear, but we need to be mindful about the impact of future events (or people’s expectations) instead of just focusing on the past data when we build model.<br />
-        You can read the full report (with my code and graphs) <a href="https://docs.google.com/document/d/1OgRFmVdZdmMZ8VT26EgzHb8chbX2uAqFCjuFl_p1b70/edit?usp=sharing">here</a>
+        You can read the full report (with my code and graphs) <a href="https://www.academia.edu/37743198/Predicting_Shanghai_License_Plate_Price">here</a>
       </p>
     </div>
   </div>
